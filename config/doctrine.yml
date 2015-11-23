@@ -5,9 +5,9 @@ doctrine:
         driver: pdo_mysql
         host: 127.0.0.1
         port: 3306
-        user: secret_user
-        password: secret_password
-        dbname: you_database
+        user: root
+        password: teste321
+        dbname: docker-octopus
         charset: utf8
     orm:
       orm.auto_generate_proxies: true

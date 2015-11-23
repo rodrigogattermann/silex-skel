@@ -3,3 +3,7 @@ routes:
     pattern: /
     method: [ 'get' ]
     controller: 'Skel\Controller\Index::index'
+  host:
+    pattern: /host
+    method: [ 'get' ]
+    controller: 'Skel\Controller\Host::host'

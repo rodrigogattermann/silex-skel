@@ -4,4 +4,4 @@ imports:
   - { resource: routes.yml }
 
 twig:
-  twig.path: ./views
+  twig.path: ..//views
